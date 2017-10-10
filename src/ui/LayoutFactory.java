@@ -6,6 +6,7 @@
 package ui;
 
 import javafx.scene.layout.BorderPane;
+import javafx.scene.layout.GridPane;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
 
@@ -39,7 +40,7 @@ public class LayoutFactory {
 	}
 	
 	private static void buildCenter() {
-		VBox centerBox = CenterComponents.getPane();
+		GridPane centerBox = CenterComponents.getPane();
 		borderPane.setCenter(centerBox);
 	}
 }
